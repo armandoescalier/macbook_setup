@@ -12,9 +12,14 @@ Initial setup for a new Macbook.
 
 ## MacOS Settings
 Customize:
-- Trackpad
+- Trackpad/mouse
+    - Natural Scrolling Disabled
 - Keyboard
+    - Spanish (not latam)
 - Control Center
+    - Enable Hot Corners
+- Finder
+    - Visualization/Show path
 
 
 ## Code stuff
@@ -25,10 +30,6 @@ Customize:
 ```
 
 ### Git
-``` batch
-git config user.name "Joe Doe"
-git config user.email your@email.example
-```
 ``` batch
 git config --global user.name "Your Name Here"
 git config --global user.email your@email.example
@@ -98,6 +99,9 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 ``` 
 Now that it's installed, open the `~/.zshrc` file with your preferred editor and change the value of `ZSH_THEME` as shown below:
 ``` batch
+open ~/.zshrc
+```
+``` batch
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
 To reflect this change on your terminal, restart it or run this command:
@@ -120,6 +124,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 
 Open the "~/.zshrc" file in your desired editor and modify the plugins line to what you see below.
+``` batch
+open ~/.zshrc
+```
 ``` batch
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
@@ -150,7 +157,7 @@ Add this code within `~/Library/Application Support/Code/User/settings.json`
 ```
 Add `code .` to path in order to be allowed to open VS Code from terminal.
 ``` batch
-nano ~/.zshrc
+open ~/.zshrc
 ```
 Add this at the end of the file
 ``` batch
@@ -165,3 +172,6 @@ Move and resize windows in macOS using keyboard shortcuts.
 opt + cmd + arrow
 ```
 - [rectangle app](http://rectangleapp.com/)
+
+### Github Desktop
+- [Github Desktop](https://desktop.github.com/)
