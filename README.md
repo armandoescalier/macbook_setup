@@ -44,11 +44,11 @@ git config user.name && git config user.email
 xcode-select --install
 ```
 
-### Ruby On Rails
+## Ruby On Rails
 Check this guide by GoRails:
 - [Install Ruby On Rails on macOS](https://gorails.com/setup/macos/11-big-sur)
 
-#### Rbenv
+### Rbenv
 [rbenv](https://github.com/rbenv/rbenv) is a version manager tool for the `Ruby`.
 
 ``` batch
@@ -58,7 +58,7 @@ Add this line to `~/.zshrc`
 ``` batch
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 ```
-Versions
+#### Versions
 ``` batch
 # list latest stable versions:
 rbenv install -l
@@ -96,7 +96,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 Run this to install PowerLevel10K:
 ``` batch
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
-``` 
+```
 Now that it's installed, open the `~/.zshrc` file with your preferred editor and change the value of `ZSH_THEME` as shown below:
 ``` batch
 open ~/.zshrc
@@ -113,7 +113,7 @@ Overwrite Powerlevel10k config
 p10k configure
 ```
 
-#### ZSH Plugins
+### ZSH Plugins
 Install zsh-autosuggestions:
 ``` batch
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -136,16 +136,24 @@ source ~/.zshrc
 ```
 
 ## VSCode
-- [VS Code](https://code.visualstudio.com/)
-- Theme: `Omni Owl Theme` by `Guilherme Rodz`
+### VSCode Extensions
+- [Omni Owl Theme](https://marketplace.visualstudio.com/items?itemName=guilhermerodz.omni-owl) by `Guilherme Rodz`
+- [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) by `Peng Lv`
+- [VSCode Ruby](https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby) by `Stafford Brunk`
+- [endwise](https://marketplace.visualstudio.com/items?itemName=kaiwood.endwise) by `Kai Wood`
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) by `Jun Han`
 
-#### Custom VS Code
+### Custom settings
 Add this code within `~/Library/Application Support/Code/User/settings.json`
 ``` json
 {
-    "workbench.colorTheme": "Omni Owl",
     "window.zoomLevel": 1,
     "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Omni Owl",
+    "editor.multiCursorModifier": "alt",
+    "files.trimTrailingWhitespace": true,
+    "ruby.useLanguageServer": true,
+    "ruby.intellisense": "rubyLocate",
     "workbench.colorCustomizations": {
         "list.inactiveSelectionBackground": "#7c12e6",
         "statusBar.background": "#7c12e6",
@@ -166,12 +174,11 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 ```
 
 ## Tools
-### Rectangle App
-Move and resize windows in macOS using keyboard shortcuts.
-``` batch
-opt + cmd + arrow
-```
 - [rectangle app](http://rectangleapp.com/)
-
-### Github Desktop
+  - Move and resize windows in macOS using keyboard shortcuts.
 - [Github Desktop](https://desktop.github.com/)
+  - Focus on what matters instead of fighting with Git.
+- [RapidAPI](https://paw.cloud/)
+  - a full-featured HTTP client that lets you test and describe the APIs you build or consume.
+- [Postico2](https://eggerapps.at/postico2/)
+  - Postico 2 is a database app.
