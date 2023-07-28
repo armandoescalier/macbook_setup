@@ -158,8 +158,13 @@ Add this code within `~/Library/Application Support/Code/User/settings.json`
         "list.inactiveSelectionBackground": "#7c12e6",
         "statusBar.background": "#7c12e6",
         "list.hoverBackground": "#7c12e6",
-        "editor.findMatchBackground" : "#f0f0f0",
-        "editor.findMatchHighlightBackground": "#f0f0f0"
+        "editorGutter.addedBackground": "#28a745", // Color for added lines (green)
+        "editorGutter.modifiedBackground": "#2188ff", // Color for modified lines (blue)
+        "editorGutter.deletedBackground": "#cb2431", // Color for removed lines (red)
+        "diffEditor.insertedTextBackground": "#28a74533", // Background color for added text (green with transparency)
+        "diffEditor.removedTextBackground": "#cb243133", // Background color for removed text (red with transparency)
+        // "editor.findMatchBackground" : "#ffffff",
+        // "editor.findMatchHighlightBackground": "#9c9c9c"
     }
 }
 ```
