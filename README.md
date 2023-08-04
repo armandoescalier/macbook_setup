@@ -154,6 +154,7 @@ Add this code within `~/Library/Application Support/Code/User/settings.json`
     "files.trimTrailingWhitespace": true,
     "ruby.useLanguageServer": true,
     "ruby.intellisense": "rubyLocate",
+    "editor.rulers": [120],
     "workbench.colorCustomizations": {
         "list.inactiveSelectionBackground": "#7c12e6",
         "statusBar.background": "#7c12e6",
@@ -163,6 +164,7 @@ Add this code within `~/Library/Application Support/Code/User/settings.json`
         "editorGutter.deletedBackground": "#cb2431", // Color for removed lines (red)
         "diffEditor.insertedTextBackground": "#28a74533", // Background color for added text (green with transparency)
         "diffEditor.removedTextBackground": "#cb243133", // Background color for removed text (red with transparency)
+        "editorRuler.foreground": "#ff4081"
         // "editor.findMatchBackground" : "#ffffff",
         // "editor.findMatchHighlightBackground": "#9c9c9c"
     }
