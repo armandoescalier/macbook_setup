@@ -169,6 +169,7 @@ Add this code within `~/Library/Application Support/Code/User/settings.json`
         // "editor.findMatchHighlightBackground": "#9c9c9c"
     },
     "editor.stickyScroll.enabled": true
+    "editor.tabSize": 2
 }
 ```
 Add `code .` to path in order to be allowed to open VS Code from terminal.
