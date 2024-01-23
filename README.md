@@ -150,6 +150,9 @@ source ~/.zshrc
 - [VSCode Ruby](https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby) by `Stafford Brunk`
 - [endwise](https://marketplace.visualstudio.com/items?itemName=kaiwood.endwise) by `Kai Wood`
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) by `Jun Han`
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) by `Tailwind Labs`
+- [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag) by `vincaslt`
+- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) by `GitKraken`
 
 ### Custom settings
 Add this code within `~/Library/Application Support/Code/User/settings.json`
