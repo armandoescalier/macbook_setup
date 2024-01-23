@@ -63,11 +63,19 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # list latest stable versions:
 rbenv install -l
 
+# list all versions:
+rbenv install --list-all
+
 # list all local versions:
 rbenv install -L
 
 # install a Ruby version:
 rbenv install 3.1.2
+```
+
+- update Ruby versions list
+``` batch
+brew upgrade ruby-build
 ```
 
 - set the default Ruby version for this machine
