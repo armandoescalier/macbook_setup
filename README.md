@@ -166,10 +166,13 @@ Add this code within `~/Library/Application Support/Code/User/settings.json`
     "ruby.useLanguageServer": true,
     "ruby.intellisense": "rubyLocate",
     "editor.rulers": [120],
+    "editor.semanticHighlighting.enabled": true, // Enable semantic highlighting
+    "editor.renderLineHighlight": "all",
     "workbench.colorCustomizations": {
-        "list.inactiveSelectionBackground": "#7c12e6",
+        "editor.lineHighlightBackground": "#e7e2ea16",
         "statusBar.background": "#7c12e6",
-        "list.hoverBackground": "#7c12e6",
+        "list.activeSelectionBackground": "#7c12e6",
+        "list.hoverBackground": "#b27aea",
         "editorGutter.addedBackground": "#28a745", // Color for added lines (green)
         "editorGutter.modifiedBackground": "#2188ff", // Color for modified lines (blue)
         "editorGutter.deletedBackground": "#cb2431", // Color for removed lines (red)
@@ -179,8 +182,10 @@ Add this code within `~/Library/Application Support/Code/User/settings.json`
         // "editor.findMatchBackground" : "#ffffff",
         // "editor.findMatchHighlightBackground": "#9c9c9c"
     },
-    "editor.stickyScroll.enabled": true
-    "editor.tabSize": 2
+    "editor.stickyScroll.enabled": true,
+    "editor.tabSize": 2,
+    "extensions.ignoreRecommendations": true,
+    "diffEditor.ignoreTrimWhitespace": false
 }
 ```
 Add `code .` to path in order to be allowed to open VS Code from terminal.
