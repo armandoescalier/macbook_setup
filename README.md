@@ -172,6 +172,7 @@ Add this code within `~/Library/Application Support/Code/User/settings.json`
         "editor.lineHighlightBackground": "#e7e2ea16",
         "statusBar.background": "#7c12e6",
         "list.activeSelectionBackground": "#7c12e6",
+        "list.inactiveSelectionBackground": "#7c12e6",
         "list.hoverBackground": "#b27aea",
         "editorGutter.addedBackground": "#28a745", // Color for added lines (green)
         "editorGutter.modifiedBackground": "#2188ff", // Color for modified lines (blue)
